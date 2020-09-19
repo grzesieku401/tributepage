@@ -1,1 +1,120 @@
 @import url('reset.css');
+
+html{
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+  position: abosolute;
+}
+
+body{
+  line-height: 2.7rem;
+}
+em{
+  font-family: 'Pacifico', cursive;
+}
+
+img{
+  margin: 1rem auto;
+  width: 80rem;
+  display: block;
+}
+
+h1{
+  margin: 0 auto;
+  padding: 2rem;
+  font-size: 2rem;
+  width: 78rem;
+}
+
+h2{
+  font-size: 4rem;
+  color: #e4e4e4;
+  margin: 3rem 20%;
+}
+
+h3{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.container{
+  width: 90rem;
+  height: 60rem;
+  margin: 0 auto;
+}
+
+section{
+  width: 60rem;
+  float: left;
+}
+
+p{
+  font-size: 2rem;
+}
+
+aside{
+  width: 26rem;
+  margin-top: 20rem;
+  margin-left: 4rem;
+  float: left;
+}
+
+.firstcoldeco{
+  font-weight: bold;
+  width: 15rem;
+}
+.secondcoldec{
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #eae9eb;
+}
+td{
+  font-size: 1.5rem;
+}
+
+table{
+  width: 26rem;
+}
+
+footer{
+  clear: both;
+  width: 80rem;
+  background-color: #d9d9d9;
+  margin: 10rem auto 20rem auto;
+  padding: 5rem;
+  font-size: 1.5rem;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+
+@media all and (max-width:850px) {
+  img{
+    display: none;
+  }
+  h1{
+    display: block;
+    margin: auto;
+    font-size: 2rem;
+    width: auto;
+  }
+  .container{
+    width: auto;
+    margin-left: 2rem;
+    margin right: 2rem;
+  }
+  .container section{
+    width: auto;
+  }
+
+  h2{
+    font-size: 3rem;
+  }
+
+  aside{
+    margin: 3rem;
+  }
+  footer{
+    width: auto;
+  }
+}
